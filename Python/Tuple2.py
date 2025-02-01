@@ -1,0 +1,5 @@
+tuple_in = input("Enter a tuple: ")
+tuple_in = tuple(tuple_in.split(","))
+print("First Element: ", tuple_in[0])
+print("All Elements: ", tuple_in)
+print("Reversed Tuple: ", tuple_in[::-1])
